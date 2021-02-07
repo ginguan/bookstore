@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+
+
+.dialogTitle{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    background-color:#9095BD;
+    color:#cee5e7;
+}
+.editBtn .delBtn{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+
+}
+
+.dialog-content{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    background-color: #9095BD;
+    color:#cee5e7;
+    
+}
+.dialog-action{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    background-color:#9095BD;
+    color:white;
+}
+.dialog-input{
+    color:white;
+}
+.dialog-button{
+    color:white;
+}
+.dialog-input:focus{
+    color:white
+}
