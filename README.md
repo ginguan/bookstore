@@ -12,4 +12,4 @@
     npm start
     
     
-<a href="https://ginguan.github.io/bookstore/>DEMO</a>
+<a href="https://ginguan.github.io/bookstore/">DEMO</a>
