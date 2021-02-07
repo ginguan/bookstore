@@ -10,3 +10,6 @@
     git clone https://github.com/ginguan/bookstore.git
     npm install
     npm start
+    
+    
+<a href="https://ginguan.github.io/bookstore/>DEMO</a>
