@@ -57,11 +57,11 @@ import './BookInfo.css';
     const onSubmit = ()=>{
         
         if(newBook.name.trim() == '' || newBook.price == '' || newBook.description == '' || newBook.category == ''){
-            alert('Form can not be blank');
+            alert('Blank input detected');
             return;
           }
           if(!(/^[1-9]\d*(((,\d{3}){1})?(\.\d{0,2})?)$/.test(newBook.price))){
-            alert('Invalid price format, please input a number!');
+            alert('Invalid price, please enter a number');
             return;
           }
         const action = getEditItemAction(newBook);

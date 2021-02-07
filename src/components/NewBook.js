@@ -54,11 +54,11 @@ function NewBook(){
     const onSubmit = ()=>{
       
       if(item.name.trim().length ===0 || item.price == '' || item.description.trim() == '' || item.category.trim() == ''){
-        alert('Form can not be blank');
+        alert('Blank input detected');
         return;
       }
       if(!(/^[1-9]\d*(((,\d{3}){1})?(\.\d{0,2})?)$/.test(item.price))){
-        alert('Invalid price format, please input a number!');
+        alert('Invalid price, please enter a number');
         return;
       }
       setId(totalCount);
