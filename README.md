@@ -7,3 +7,6 @@
 4. Once clicked delete button, the book should be deleted from the main page/
 
 ## Installation:
+    git clone https://github.com/ginguan/bookstore.git
+    npm install
+    npm start
